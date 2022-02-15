@@ -24,6 +24,7 @@ Program to sort the elements in the list using the Selection Sort algorithm.
 Developed by: your name:Meiyarasi.V
 RegisterNumber: 21005984
 '''
+~~~
 def selection_sort(nums):
     for i in range(len(nums)):
         low_index=i
@@ -35,20 +36,17 @@ def selection_sort(nums):
 list_of_nums=eval(input())
 value=selection_sort(list_of_nums)
 print(value)
+
+~~~
 ## Output:
  ![output](.//S1.png)
-
-
-
-
-```
 ii)	#Insertion Sort
 ''' 
 Program to sort the elements in the list using the Insertion Sort algorithm.
 Developed by: your name:Meiyarasi.V
 RegisterNumber: 21005984
 '''
-```
+~~~
 def insertion_sort(nums):
     for i in range(1,len(nums)):
         item=nums[i]
@@ -62,13 +60,12 @@ list_of_nums = eval(input())
 
 value=insertion_sort(list_of_nums)
 print(value)
+
+
+~~~
  ## Output:
  ![output](.//S2.png)
 
-
-
-
-```
 
 ## Output:
 
